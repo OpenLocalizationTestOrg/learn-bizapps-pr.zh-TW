@@ -1,0 +1,283 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "achievements.yml"
+        ],
+        "dest": "achievements/bizapps/"
+      },
+      {
+        "src": "dyn365-customer-service",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "dyn365-field-service",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "dyn365-marketing",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "flow",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "power-bi",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "powerapps",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices",
+          "paths/sample-path/**",
+          "dyn365-customer-service/**",
+          "dyn365-field-service/**",
+          "flow/**",
+          "power-bi/**",
+          "powerapps/**",
+          "module_template/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "src": "dyn365-customer-service",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "dyn365-field-service",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "flow",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "power-bi",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "powerapps",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "dyn365-customer-service/**",
+          "dyn365-field-service/**",
+          "flow/**",
+          "power-bi/**",
+          "powerapps/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "breadcrumb_path": "/learn/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "feedback_system": "None",
+      "clicktale": true,
+      "uhfHeaderId":"MSDocsHeader-Learn"
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "learn-bizapps-pr",
+    "markdownEngineName": "markdig",
+    "localization_scopes": {
+        "dyn365-customer-service/**/*.yml": [
+          "da-dk", 
+          "de-de", 
+          "es-es", 
+          "fi-fi", 
+          "fr-fr", 
+          "it-it", 
+          "ja-jp", 
+          "nb-no", 
+          "nl-nl", 
+          "pt-br", 
+          "sv-se"
+        ],
+        "dyn365-field-service/**/*.yml": [
+          "da-dk", 
+          "de-de", 
+          "es-es", 
+          "fi-fi", 
+          "fr-fr", 
+          "it-it", 
+          "ja-jp", 
+          "nb-no", 
+          "nl-nl", 
+          "pt-br", 
+          "sv-se"
+        ],
+        "dyn365-marketing/**/*.yml": [
+          "da-dk", 
+          "de-de", 
+          "es-es", 
+          "fi-fi", 
+          "fr-fr", 
+          "it-it", 
+          "ja-jp", 
+          "nb-no", 
+          "nl-nl", 
+          "pt-br", 
+          "sv-se"
+        ],
+        "flow/**/*.yml": [
+          "de-de",
+          "es-es",
+          "fr-fr",
+          "it-it",
+          "ja-jp",
+          "pt-br",
+          "zh-cn",
+          "zh-tw",
+          "ko-kr",
+          "ru-ru",
+          "nl-nl",
+          "hu-hu",
+          "cs-cz",
+          "pl-pl",
+          "pt-pt",
+          "sv-se",
+          "tr-tr",
+          "da-dk",
+          "nb-no",
+          "fi-fi",
+          "sk-sk",
+          "el-gr",
+          "th-th"
+        ],
+        "power-bi/**/*.yml": [
+          "de-de",
+          "es-es",
+          "fr-fr",
+          "it-it",
+          "ja-jp",
+          "pt-br",
+          "zh-cn",
+          "zh-tw",
+          "ko-kr",
+          "ru-ru",
+          "nl-nl",
+          "hu-hu",
+          "cs-cz",
+          "pl-pl",
+          "pt-pt",
+          "sv-se",
+          "tr-tr",
+          "da-dk",
+          "nb-no",
+          "fi-fi",
+          "sk-sk",
+          "el-gr",
+          "th-th"
+        ],
+        "powerapps/**/*.yml": [
+          "de-de",
+          "es-es",
+          "fr-fr",
+          "it-it",
+          "ja-jp",
+          "pt-br",
+          "zh-cn",
+          "zh-tw",
+          "ko-kr",
+          "ru-ru",
+          "nl-nl",
+          "hu-hu",
+          "cs-cz",
+          "pl-pl",
+          "pt-pt",
+          "sv-se",
+          "tr-tr",
+          "da-dk",
+          "nb-no",
+          "fi-fi",
+          "sk-sk",
+          "el-gr",
+          "th-th"
+        ]
+  }
+}
+}
